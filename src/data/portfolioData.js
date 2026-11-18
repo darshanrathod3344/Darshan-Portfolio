@@ -1,199 +1,320 @@
-// Portfolio Data configuration
-// Edit this file to customize all personal details, projects, skills, and links!
+// Portfolio Data Configuration for Darshan Rathod
+// Unity Developer | 2D, 3D & VR Applications
 
 export const portfolioData = {
-  // Personal & Brand Info
   personal: {
-    name: "Vivek Kumar",
-    nickname: "Vivek",
-    role: "Full Stack Web Developer",
-    tagline: "Building sleek, responsive, and performance-driven web applications.",
-    bio: "I'm a passionate developer focused on crafting beautiful user experiences and resilient web backends. I love turning complex ideas into intuitive, scalable software using modern technologies.",
-    status: "Available for new projects & full-time roles",
-    location: "India",
-    email: "vivek.dev@example.com", // Replace with your real email
-    phone: "+91 98765 43210",       // Optional: Replace or remove
-    resumeUrl: "#",                 // Link to your resume PDF or Google Drive link
-    avatarUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80", // Can be replaced with your photo
+    firstName: 'Darshan',
+    lastName: 'Rathod',
+    fullName: 'Darshan Rathod',
+    roleTag: 'Unity 3D & VR Developer',
+    availabilityBadge: 'Available for Unity & VR Roles',
+    heroTitlePrefix: 'Engineering Immersive',
+    heroTitleHighlight: 'VR Experiences & 2D/3D Solutions',
+    heroSubtitle:
+      'Unity Developer with 4+ years of experience at Moxmind Games building Virtual Reality (VR) applications, synchronized multiscreen setups, and high-performance 2D/3D apps for Oculus Quest, PICO, Android, and Windows.',
+    location: 'Rajkot, Gujarat, India',
+    email: 'darshan.live0205@gmail.com',
+    phone: '+91 8200591262',
+    phoneHref: 'tel:+918200591262',
+    roleAvailability: 'Unity 3D & VR Developer',
+    company: 'Moxmind Games',
+    resumeUrl: './Darshan_Rathod_CV.docx',
+    avatarUrl: './darshan-rathod.png',
+    heroChips: ['Oculus Quest', 'PICO SDK', 'XR Toolkit', 'Multiscreen Sync'],
+    languages: ['Gujarati', 'English', 'Hindi'],
   },
 
-  // Social Profiles
   socials: {
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
-    twitter: "https://twitter.com/",
-    email: "mailto:vivek.dev@example.com",
+    linkedin: 'https://www.linkedin.com/in/darshan-rathod-856a6b1aa',
+    email: 'mailto:darshan.live0205@gmail.com',
+    phone: 'tel:+918200591262',
   },
 
-  // Key stats shown in Hero and About sections
-  stats: [
-    { label: "Years Experience", value: "2+" },
-    { label: "Projects Completed", value: "15+" },
-    { label: "GitHub Repositories", value: "25+" },
-    { label: "Happy Clients & Collabs", value: "10+" },
+  heroStats: [
+    { value: '4+ Years', label: 'Unity & VR Experience' },
+    { value: '7+ Projects', label: 'VR & Multiscreen Apps' },
+    { value: '100+ Levels', label: 'VR Puzzle Park Built' },
   ],
 
-  // About Me Section Highlights
   about: {
-    heading: "Passionate About Building Products That Make An Impact",
+    tag: 'Professional Overview',
+    titlePrefix: 'Immersive',
+    titleHighlight: 'VR & Interactive Development',
+    subtitle:
+      'Delivering smooth, intuitive, and high-performance Virtual Reality apps, multiscreen setups, and 2D/3D simulations.',
     paragraphs: [
-      "Hello! I'm a developer who enjoys solving real-world challenges through clean, maintainable code. With an eye for design and a solid foundation in frontend and backend technologies, I bridge the gap between creative visual designs and powerful technical architectures.",
-      "When I'm not writing code or debugging, you can find me exploring open-source projects, learning emerging tech stacks, or tinkering with new design ideas.",
+      {
+        text: "Hello! I'm ",
+        strong1: 'Darshan Rathod',
+        mid: ', a dedicated ',
+        strong2: 'Unity Developer',
+        rest: ' with 4+ years of hands-on experience building Virtual Reality (VR) applications, multiscreen installations, and interactive 2D/3D experiences at ',
+        strong3: 'Moxmind Games',
+        end: ' in Rajkot, India.',
+      },
+      {
+        text: 'I have engineered diverse production projects ranging from physics-driven VR games like ',
+        strong1: 'Tool Spin VR – Puzzle Park',
+        mid: ' and hand-tracked cultural experiences like ',
+        strong2: 'Vadya Sangeet VR',
+        rest: ', to dual-screen interactive installations such as ',
+        strong3: 'Mars Terraforming',
+        end: ', Make Your Planet, TopsoeVR Safety Training, Chemistry Atom Structure VR, and KEC Virtual Tour.',
+      },
+      {
+        text: 'My core strength lies in clean ',
+        strong1: 'C# architecture',
+        mid: ', ',
+        strong2: 'XR Interaction Toolkit',
+        rest: ', responsive 2D Canvas & 3D world-space VR menus, multiscreen synchronization, and seamless integration of SDKs like ',
+        strong3: 'AVPro Video, PICO SDK, Upano, DOTween, and Photon PUN',
+        end: '.',
+      },
     ],
-    highlights: [
+    pillars: [
       {
-        title: "Clean & Maintainable Code",
-        description: "Writing scalable, readable, and well-structured code adhering to industry best practices.",
-        icon: "Code2",
+        icon: 'Glasses',
+        title: 'VR & XR Engineering',
+        description:
+          'XR Interaction Toolkit, VR hand tracking, locomotion, teleportation, Oculus Quest & PICO SDK.',
       },
       {
-        title: "Responsive & Modern UI",
-        description: "Crafting fluid, accessible layouts that look pixel-perfect on any device or screen size.",
-        icon: "Layout",
+        icon: 'MonitorSmartphone',
+        title: 'Multiscreen & Shaders',
+        description:
+          'Synchronized dual and multi-display Unity setups with touch interfaces and custom real-time shaders.',
       },
       {
-        title: "High Performance",
-        description: "Optimizing web applications for blazing speed, SEO friendliness, and smooth animations.",
-        icon: "Zap",
+        icon: 'Boxes',
+        title: '2D/3D UI & Physics',
+        description:
+          'Canvas & 3D world-space VR menus, physics-based gameplay, DOTween animations, and Scriptable Objects.',
       },
       {
-        title: "Collaborative Team Player",
-        description: "Communicating effectively with cross-functional teams, Git workflows, and agile delivery.",
-        icon: "Users",
+        icon: 'Network',
+        title: 'Multiplayer & SDKs',
+        description:
+          'Photon PUN multiplayer features plus AVPro Video, Upano 360° hotspots, and cross-platform tuning.',
       },
     ],
   },
 
-  // Skills & Technologies
-  skills: [
-    // Frontend
-    { name: "React.js", category: "Frontend", level: 90, icon: "Atom" },
-    { name: "JavaScript (ES6+)", category: "Frontend", level: 92, icon: "FileCode" },
-    { name: "HTML5 / CSS3", category: "Frontend", level: 95, icon: "Palette" },
-    { name: "Tailwind CSS", category: "Frontend", level: 90, icon: "Sparkles" },
-    { name: "TypeScript", category: "Frontend", level: 75, icon: "Code" },
-    { name: "Next.js", category: "Frontend", level: 80, icon: "Globe" },
-
-    // Backend
-    { name: "Node.js", category: "Backend", level: 85, icon: "Server" },
-    { name: "Express.js", category: "Backend", level: 85, icon: "Cpu" },
-    { name: "REST APIs", category: "Backend", level: 88, icon: "Network" },
-    { name: "MongoDB", category: "Backend", level: 80, icon: "Database" },
-    { name: "PostgreSQL", category: "Backend", level: 72, icon: "Database" },
-
-    // Tools & Cloud
-    { name: "Git & GitHub", category: "Tools", level: 90, icon: "GitBranch" },
-    { name: "Vite", category: "Tools", level: 90, icon: "Flame" },
-    { name: "VS Code", category: "Tools", level: 95, icon: "Terminal" },
-    { name: "Postman", category: "Tools", level: 85, icon: "Send" },
-    { name: "Vercel / Netlify", category: "Tools", level: 88, icon: "Cloud" },
-    { name: "Docker Basics", category: "Tools", level: 65, icon: "Box" },
+  skillCategories: [
+    {
+      title: 'Unity Engine & Core Tech',
+      icon: 'Code2',
+      skills: [
+        { name: 'Unity 3D & 2D Engine', level: 95 },
+        { name: 'C# Scripting & Architecture', level: 94 },
+        { name: 'Unity UI (Canvas & World-Space)', level: 92 },
+      ],
+      badges: ['Scriptable Objects', 'Animation', 'Particle Systems', 'DOTween'],
+    },
+    {
+      title: 'VR & XR Development',
+      icon: 'Glasses',
+      skills: [
+        { name: 'XR Interaction Toolkit', level: 95 },
+        { name: 'VR Hand Tracking & Physics', level: 92 },
+        { name: 'Oculus Quest & PICO SDK', level: 92 },
+      ],
+      badges: ['Teleportation', 'Object Grabbing', 'Climbing Mechanics', 'VR Optimization'],
+    },
+    {
+      title: 'Multiscreen, Network & SDKs',
+      icon: 'Network',
+      skills: [
+        { name: 'Multiscreen Display Sync', level: 90 },
+        { name: 'AVPro Video & Upano 360°', level: 90 },
+        { name: 'Photon PUN Multiplayer', level: 85 },
+      ],
+      badges: ['Windows & Android', 'Git & GitHub', 'Plastic SCM', 'Performance Tuning'],
+    },
   ],
 
-  // Featured Projects
+  experience: [
+    {
+      role: 'Unity Developer',
+      company: 'Moxmind Games · Rajkot, Gujarat, India',
+      period: 'May 2022 – Present (4+ Years · Current Role)',
+      bullets: [
+        'Worked as a Unity Developer for 4+ years, building Virtual Reality (VR) applications, interactive simulations, and multiscreen setups.',
+        'Built 2D (Canvas-based) and 3D world-space UI, including VR-friendly menus and custom interaction systems.',
+        'Developed immersive VR experiences using XR Interaction Toolkit, supporting both controller and natural hand-tracking input across Oculus Quest and PICO headsets.',
+        'Engineered and managed multiscreen Unity setups, keeping real-time visual content synchronized across multiple displays and screen resolutions.',
+        'Created smooth animations, particle effects, and interactions optimized across VR headsets, mobile devices, touch screens, and Windows.',
+        'Integrated third-party SDKs and plugins including AVPro Video, PICO SDK, Upano 360° plugin, DOTween, and multiplayer networking via Photon PUN.',
+      ],
+    },
+  ],
+
+  projectFilters: [
+    { id: 'all', label: 'All Projects' },
+    { id: 'vr-game', label: 'VR Games & Music' },
+    { id: 'multiscreen', label: 'Multiscreen & Sim' },
+    { id: 'training', label: 'Training, Edu & Tour' },
+  ],
+
   projects: [
     {
-      id: "project-1",
-      title: "DevSpace - Developer Community Platform",
-      description: "A full-stack collaborative social platform for developers to share articles, discuss coding challenges, and showcase open-source projects.",
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-      category: "Full Stack",
-      tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-      demoUrl: "https://example.com/demo1",
-      repoUrl: "https://github.com/",
-      featured: true,
-      stats: "500+ Active Users",
+      id: 'tool-spin-vr',
+      filter: 'vr-game',
+      category: 'VR Puzzle & Arcade Game',
+      title: 'Tool Spin VR – Puzzle Park',
+      stat: '100+ Levels',
+      image: './projects/tool-spin-vr.jpg',
+      shortDesc:
+        'Immersive VR puzzle game with physics-based gameplay, simple one-tap controls, 100+ dynamic levels, coin rewards, and VR amusement-park rides.',
+      fullDesc:
+        'An engaging Virtual Reality puzzle experience designed around intuitive one-tap physics mechanics. Players progress through over 100 handcrafted stages packed with dynamic obstacles, precision timing challenges, coin reward unlocks, and thrilling VR amusement-park-style rides.',
+      tags: ['Unity 3D', 'XR Toolkit', 'VR Physics'],
+      highlights: [
+        'Built physics-based VR puzzle gameplay with effortless one-tap controls',
+        'Designed and implemented 100+ progressive levels with dynamic obstacles and precision mechanics',
+        'Added coin reward economy, level unlocking flow, and VR amusement-park rides for high player engagement',
+        'Optimized draw calls and frame pacing for comfortable standalone VR headset play',
+      ],
     },
     {
-      id: "project-2",
-      title: "ShopWave - Modern E-Commerce Store",
-      description: "A lightning-fast e-commerce shopping experience featuring instant search, product filtering, dynamic cart management, and seamless checkout flow.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-      category: "Frontend",
-      tags: ["React", "Tailwind CSS", "Redux Toolkit", "Stripe API"],
-      demoUrl: "https://example.com/demo2",
-      repoUrl: "https://github.com/",
-      featured: true,
-      stats: "99+ Lighthouse Score",
+      id: 'mars-terraforming',
+      filter: 'multiscreen',
+      category: 'Dual-Screen Interactive Simulation',
+      title: 'Mars Terraforming',
+      stat: 'Dual-Screen Sync',
+      image: './projects/mars-terraforming.jpg',
+      shortDesc:
+        'Dual-screen interactive Mars terraforming simulation in Unity with custom shader effects and a touch interface synced live to a projected Mars globe.',
+      fullDesc:
+        'An interactive museum-grade dual-screen installation built in Unity. Users adjust planetary atmosphere, temperature, and biosphere parameters on a touch control station while watching real-time custom shader transformations synchronize live across a projected Mars globe.',
+      tags: ['Multiscreen Sync', 'Custom Shaders', 'Touch UI'],
+      highlights: [
+        'Built a synchronized dual-screen Unity architecture driving touch UI and projected globe displays in real time',
+        'Created custom shader effects visualizing live atmospheric, water, and vegetation shifts on Mars',
+        'Implemented interactive game mechanics including parameter balancing, hints, quick resets, and result visuals',
+        'Engineered reliable continuous-run stability for exhibition and public interactive setups',
+      ],
     },
     {
-      id: "project-3",
-      title: "TaskFlow - Real-time Project Management",
-      description: "An interactive Kanban board with drag-and-drop task cards, sprint tracking, priority tags, and automated progress analytics.",
-      image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
-      category: "Full Stack",
-      tags: ["React", "Firebase", "Tailwind CSS", "Lucide Icons"],
-      demoUrl: "https://example.com/demo3",
-      repoUrl: "https://github.com/",
-      featured: true,
-      stats: "Realtime Sync",
+      id: 'make-your-planet',
+      filter: 'multiscreen',
+      category: 'Dual-Screen Educational Experience',
+      title: 'Make Your Planet',
+      stat: 'Live Shaders',
+      image: './projects/make-your-planet.jpg',
+      shortDesc:
+        'Dual-screen educational planet-design experience with interactive touch sliders, real-time shader visual feedback, and habitability outcome animations.',
+      fullDesc:
+        'A hands-on dual-screen educational experience letting learners design their own custom planet. Interactive sliders dynamically reshape surface and atmospheric properties through real-time shaders, validating planetary habitability with responsive success and failure feedback animations.',
+      tags: ['Unity 3D', 'Shaders', 'Touch Controls'],
+      highlights: [
+        'Built a dual-screen educational planet builder in Unity with approachable touch controls',
+        'Developed responsive interactive sliders tied directly to real-time shader-based surface and sky visuals',
+        'Implemented habitability rule engine with clear success and failure feedback animations',
+        'Tuned UI readability and tactile feedback for multi-user educational environments',
+      ],
     },
     {
-      id: "project-4",
-      title: "WeatherLens - Global Forecast Dashboard",
-      description: "A clean, minimalist weather app displaying 7-day hourly forecasts, interactive radar maps, and location-based air quality metrics.",
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&w=800&q=80",
-      category: "Frontend",
-      tags: ["React", "OpenWeather API", "CSS Grid", "Chart.js"],
-      demoUrl: "https://example.com/demo4",
-      repoUrl: "https://github.com/",
-      featured: false,
-      stats: "Global Coverage",
+      id: 'topsoe-vr',
+      filter: 'training',
+      category: 'Enterprise VR & Windows Training',
+      title: 'TopsoeVR – Safety Training',
+      stat: '5 VR Modules',
+      image: './projects/topsoe-vr.jpg',
+      shortDesc:
+        'Full industrial site safety training application for VR & Windows featuring 5 interactive modules, hazard detection, highlighting, teleportation, and climbing.',
+      fullDesc:
+        'A comprehensive industrial safety training simulator deployed on both VR headsets and Windows desktops. Comprises 5 scenario-based training modules where trainees inspect industrial environments, identify safety hazards, climb structures, and follow guided safety protocols.',
+      tags: ['Oculus Quest', 'XR Toolkit', 'Windows'],
+      highlights: [
+        'Engineered 5 complete interactive industrial site safety training modules for VR and Windows',
+        'Implemented core XR interactions: hazard detection, interactive object highlighting, teleportation, and climbing mechanics',
+        'Built scenario-based workflows guiding trainees to spot hazards and execute proper safety procedures',
+        'Designed intuitive 3D world-space inspection checklists and responsive feedback systems',
+      ],
     },
     {
-      id: "project-5",
-      title: "CryptPulse - Crypto Portfolio Tracker",
-      description: "Real-time cryptocurrency price tracker with live market charts, watchlist bookmarking, and portfolio profit/loss calculations.",
-      image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=800&q=80",
-      category: "Frontend",
-      tags: ["React", "CoinGecko API", "Tailwind CSS", "Vite"],
-      demoUrl: "https://example.com/demo5",
-      repoUrl: "https://github.com/",
-      featured: false,
-      stats: "Live WebSockets",
+      id: 'chemistry-atom-vr',
+      filter: 'training',
+      category: 'Educational VR Science App',
+      title: 'Chemistry Atom Structure VR',
+      stat: '3D Atom Lab',
+      image: './projects/chemistry-atom-vr.jpg',
+      shortDesc:
+        'Immersive VR chemistry app for exploring atomic structures with grab-based element selection, 3D proton/neutron/electron inspection, and Scriptable Objects.',
+      fullDesc:
+        'An interactive Virtual Reality chemistry laboratory built to help students visualize atomic theory in 3D space. Learners grab and select chemical elements to inspect orbiting electrons, protons, and neutrons up close, backed by clean Scriptable Object data architecture.',
+      tags: ['Unity VR', 'Scriptable Objects', 'Grab Mechanics'],
+      highlights: [
+        'Designed grab-based VR element selection to explore 3D atomic models interactively',
+        'Visualized proton, neutron, and electron shell details clearly inside immersive 3D space',
+        'Added smooth teleportation locomotion for comfortable movement across the virtual lab',
+        'Structured element datasets using Unity Scriptable Objects for clean, scalable data management',
+      ],
     },
     {
-      id: "project-6",
-      title: "RestAPI Gateway & Auth Service",
-      description: "A robust JWT authentication microservice with role-based access control, rate limiting, and automated Swagger API documentation.",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
-      category: "Backend",
-      tags: ["Node.js", "Express", "JWT", "PostgreSQL", "Docker"],
-      demoUrl: "https://example.com/demo6",
-      repoUrl: "https://github.com/",
-      featured: false,
-      stats: "100% Test Coverage",
+      id: 'vadya-sangeet-vr',
+      filter: 'vr-game',
+      category: 'VR Music & Hand Tracking',
+      title: 'Vadya Sangeet VR Application',
+      stat: '7 Instruments',
+      image: './projects/vadya-sangeet-vr.jpg',
+      shortDesc:
+        'Immersive VR music application showcasing 7 traditional Indian classical instruments with natural VR hand tracking and realistic physics-based audio interaction.',
+      fullDesc:
+        'A cultural Virtual Reality music experience celebrating traditional Indian classical instruments. Powered by VR hand tracking and realistic physics collision response, users naturally hold, strike, and pluck 7 authentic instruments with real-world playing techniques and sound fidelity.',
+      tags: ['VR Hand Tracking', 'Physics Audio', 'Unity 3D'],
+      highlights: [
+        'Integrated natural VR hand tracking allowing users to hold and play 7 traditional Indian classical instruments',
+        'Built realistic physics-driven strike and pluck detection mimicking authentic playing techniques',
+        'Synchronized responsive acoustic sound systems with hand velocity and contact points',
+        'Crafted an atmospheric, culturally rich virtual concert environment optimized for VR headsets',
+      ],
+    },
+    {
+      id: 'kec-virtual-tour',
+      filter: 'training',
+      category: '360° VR Campus Tour',
+      title: 'KEC Virtual Tour',
+      stat: '360° Hotspots',
+      image: './projects/kec-virtual-tour.jpg',
+      shortDesc:
+        'Immersive VR campus tour application powered by the Upano plugin for smooth 360° hotspot transitions, interactive maps, and simple controller navigation.',
+      fullDesc:
+        'An intuitive 360-degree Virtual Reality campus tour designed for effortless exploration across campus locations. Built using the Upano plugin, it provides crisp panoramic transitions, interactive mini-maps, informative location hotspots, and accessible VR controller navigation.',
+      tags: ['Upano Plugin', '360° VR', 'Interactive Maps'],
+      highlights: [
+        'Integrated the Upano plugin for seamless 360° panoramic scenes and interactive VR hotspots',
+        'Built smooth controller-based point-and-select navigation suitable for first-time VR visitors',
+        'Designed interactive campus maps and detailed location info views linked directly to hotspots',
+        'Optimized panoramic media streaming for fast transitions and crisp visual clarity',
+      ],
     },
   ],
 
-  // Career & Education Timeline
-  timeline: [
+  education: [
     {
-      type: "work",
-      title: "Full Stack Developer",
-      organization: "Freelance & Open Source",
-      period: "2024 - Present",
-      location: "Remote",
-      description: "Designing and developing bespoke web applications for international clients, focusing on responsive frontend interfaces and reliable backend services.",
-      skills: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
+      tag: "Bachelor's Degree",
+      degree: 'B.E. in Computer Engineering',
+      institution: 'Darshan Institute of Engineering and Technology, Rajkot, India',
+      status: 'Graduated · Computer Engineering',
+      description:
+        'Bachelor of Engineering degree covering software engineering, object-oriented programming, data structures, algorithms, and interactive computer graphics.',
     },
     {
-      type: "work",
-      title: "Frontend Developer Intern",
-      organization: "Tech Innovators Lab",
-      period: "2023 - 2024",
-      location: "Hybrid",
-      description: "Collaborated with senior engineers to implement interactive UI dashboards, improved website load speed by 35%, and wrote modular React components.",
-      skills: ["React", "JavaScript", "REST APIs", "Git"],
+      tag: 'Higher Secondary',
+      degree: 'Higher Secondary Education (HSC)',
+      institution: 'Shree Shubham Higher Secondary School, Rajkot, India',
+      status: 'Completed · Science Stream',
+      description:
+        'Completed Higher Secondary schooling with focus on Mathematics, Physics, and foundational Computer Science principles.',
     },
     {
-      type: "education",
-      title: "Bachelor of Technology in Computer Science",
-      organization: "University Institute of Technology",
-      period: "2020 - 2024",
-      location: "India",
-      description: "Graduated with honors. Key coursework: Data Structures & Algorithms, Database Management Systems, Web Technologies, and Software Engineering.",
-      skills: ["DSA", "DBMS", "Software Engineering"],
+      tag: 'Secondary School',
+      degree: 'Secondary Education (SSC)',
+      institution: 'Shree Shubham School, Rajkot, India',
+      status: 'Completed · Secondary Certificate',
+      description:
+        'Completed Secondary School Certificate curriculum building strong analytical, mathematical, and problem-solving foundations.',
     },
   ],
 };
