@@ -14,12 +14,14 @@ export const portfolioData = {
       'Unity Developer with 4+ years of experience at Moxmind Games building Virtual Reality (VR) applications, synchronized multiscreen setups, and high-performance 2D/3D apps for Oculus Quest, PICO, Android, and Windows.',
     location: 'Rajkot, Gujarat, India',
     email: 'darshan.live0205@gmail.com',
-    phone: '+91 8200591262',
-    phoneHref: 'tel:+918200591262',
     roleAvailability: 'Unity 3D & VR Developer',
     company: 'Moxmind Games',
     resumeUrl: './Darshan_Rathod_CV.docx',
-    avatarUrl: './darshan-rathod.png',
+    featuredProject: {
+      title: 'Tool Spin VR – Puzzle Park',
+      category: 'Featured VR Experience',
+      image: './projects/tool-spin-vr.jpg',
+    },
     heroChips: ['Oculus Quest', 'PICO SDK', 'XR Toolkit', 'Multiscreen Sync'],
     languages: ['Gujarati', 'English', 'Hindi'],
   },
@@ -27,7 +29,6 @@ export const portfolioData = {
   socials: {
     linkedin: 'https://www.linkedin.com/in/darshan-rathod-856a6b1aa',
     email: 'mailto:darshan.live0205@gmail.com',
-    phone: 'tel:+918200591262',
   },
 
   heroStats: [

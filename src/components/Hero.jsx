@@ -1,5 +1,5 @@
 import React from 'react';
-import { Glasses, FolderKanban, Send, Download } from 'lucide-react';
+import { Glasses, FolderKanban, Send, Download, Sparkles } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
 
 export default function Hero() {
@@ -50,15 +50,19 @@ export default function Hero() {
           <div className="hero-banner-wrapper">
             <div className="hero-profile-media">
               <img
-                src={personal.avatarUrl}
-                alt={`${personal.fullName} — ${personal.roleTag}`}
+                src={personal.featuredProject.image}
+                alt={`${personal.featuredProject.title} — Flagship Project`}
                 className="hero-img"
               />
               <div className="hero-media-fade" />
+              <div className="hero-featured-tag">
+                <Sparkles size={13} />
+                {personal.featuredProject.category}
+              </div>
             </div>
 
             <div className="hero-profile-caption">
-              <div className="hero-profile-name">{personal.fullName}</div>
+              <div className="hero-profile-name">{personal.featuredProject.title}</div>
               <div className="hero-profile-role">
                 {personal.roleTag} · {personal.company}
               </div>

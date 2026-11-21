@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {
   Mail,
-  Phone,
   MapPin,
   Briefcase,
   Send,
@@ -53,7 +52,7 @@ export default function Contact() {
             <div>
               <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>Contact Details</h3>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>
-                Reach out directly via email, phone, or LinkedIn for Unity/VR development opportunities and project inquiries.
+                Reach out directly via email or LinkedIn for Unity/VR development opportunities and project inquiries.
               </p>
 
               <div className="contact-details">
@@ -64,16 +63,6 @@ export default function Contact() {
                   <div className="contact-text">
                     <label>Email Me</label>
                     <a href={socials.email}>{personal.email}</a>
-                  </div>
-                </div>
-
-                <div className="contact-item">
-                  <div className="contact-icon">
-                    <Phone size={20} />
-                  </div>
-                  <div className="contact-text">
-                    <label>Phone</label>
-                    <a href={personal.phoneHref}>{personal.phone}</a>
                   </div>
                 </div>
 
@@ -131,15 +120,6 @@ export default function Contact() {
                   aria-label="Email"
                 >
                   <Mail size={19} />
-                </a>
-
-                <a
-                  href={socials.phone}
-                  className="social-icon"
-                  title="Call"
-                  aria-label="Phone"
-                >
-                  <Phone size={19} />
                 </a>
 
                 <a
